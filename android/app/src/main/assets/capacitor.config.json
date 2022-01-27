@@ -1,0 +1,9 @@
+{
+	"appId": "io.ionic.nameofyourapp",
+	"appName": "nameofyourapp",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {},
+	"CAPACITOR_ANDROID_STUDIO_PATH": "/opt/android-studio/bin/studio.sh"
+}

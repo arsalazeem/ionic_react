@@ -1,0 +1,11 @@
+<svg id="app_icon_android" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect id="Rectangle_2069" data-name="Rectangle 2069" width="512" height="512" fill="#f2f3f7"/>
+  <g id="Group_7319" data-name="Group 7319" transform="translate(121 140)">
+    <path id="main_bckground" data-name="main bckground" d="M234.133,199.151,147.872,79.509,228.514-32.2H170.677L118.457,42.824,65.247-32.2H4.435l81.3,113.692L.138,199.151H61.611l54.863-80.312,55.855,80.312Z" transform="translate(35.786 32.347)" fill="#4260b3"/>
+    <path id="Path_1390" data-name="Path 1390" d="M234.133,199.151,147.872,79.509,228.514-32.2H170.677L118.457,42.824,65.247-32.2H4.435l81.3,113.692L.138,199.151H61.611l54.863-80.312,55.855,80.312Z" transform="translate(-0.138 32.347)" fill="#557be6"/>
+    <path id="Path_1396" data-name="Path 1396" d="M7854.606,1409.518h35.552l-85.786-119.581h-35.72Z" transform="translate(-7620.854 -1177.748)" fill="#395299"/>
+    <path id="Path_1397" data-name="Path 1397" d="M7822.11,1362.854l18-25.2-35.58-49.719h-35.817Z" transform="translate(-7703.678 -1287.784)" fill="#395299"/>
+    <path id="Path_1398" data-name="Path 1398" d="M7760.912,1368.336h36.441l37.28-54.5-18.113-25.867Z" transform="translate(-7699.984 -1136.658)" fill="#3d59a6" opacity="0.6"/>
+    <path id="Path_1399" data-name="Path 1399" d="M7760.709,1396.163h36.467l81.081-112.036H7842.19Z" transform="translate(-7613.929 -1284.127)" fill="#395299" opacity="0.6"/>
+  </g>
+</svg>
