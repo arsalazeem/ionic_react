@@ -1,0 +1,4 @@
+io/ionic/nameofyourapp/MainActivity.java
+ io.ionic.nameofyourapp.MainActivity
+io/ionic/nameofyourapp/BuildConfig.java
+ io.ionic.nameofyourapp.BuildConfig
