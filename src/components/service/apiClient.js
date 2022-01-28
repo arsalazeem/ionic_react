@@ -1,18 +1,26 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL:
-    process.env.REACT_APP_ENV === "production"
-      ? process.env.REACT_APP_SERVER_LIVE_URL
-      : process.env.REACT_APP_SERVER_STAGING_URL,
-  withCredentials: true,
+  baseURL:"https://stagingapi.workerx.co/api/v1/en/"
 });
 
+const returnToken=()=>{
+return "Bearer"+" "+localStorage.getItem("token");
+}
 // get request
 const getRequest = async (endpoint) => {
+  let getoken=await returnToken();
   try {
-    let response = await axiosInstance.get(`${endpoint}`);
-    return response;
+    let options = {
+      method: "get",
+      Headers: {
+        "Authorization":getoken,
+        "Content-Type": "application/json",
+      },
+      url: endpoint
+      // withCredentials: true,
+    };
+    return await axiosInstance(options);
   } catch (error) {
     console.error(error);
   }
@@ -36,6 +44,25 @@ const postRequest = async (endpoint, body) => {
     console.error(error);
   }
 };
+//
+const postRequestToken = async (endpoint, body) => {
+  try {
+    let options = {
+      method: "post",
+      Headers: {
+        "Authorization":"Bearer"+" "+localStorage.getItem("token"),
+        "Content-Type": "application/json",
+      },
+      url: endpoint,
+      data: body,
+      withCredentials: true,
+    };
+    return await axiosInstance(options);
+  } catch (error) {
+    console.error(error);
+  }
+};
+//Authorization
 //put request
 const putRequest = async (endpoint, body) => {
   try {

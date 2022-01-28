@@ -1,0 +1,14 @@
+body{
+   
+    background-color: #F2F3F7;
+}
+.cards_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}

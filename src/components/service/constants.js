@@ -1,7 +1,6 @@
 const companyListing = "company/search",
-  login = "login",
-  currentUser = "current-user",
-  changePassword = "update/password",
+  login = "worker/login",
+  fetchAppointments="worker/fetch-appointments",
   logout = "logout";
 
-export { companyListing, login, currentUser, changePassword, logout };
+export {  login ,fetchAppointments};

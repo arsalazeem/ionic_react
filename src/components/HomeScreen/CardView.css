@@ -1,0 +1,26 @@
+.data_card {
+background-color: white;
+height: 8rem;
+width: 95%;
+margin: 0px auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border-radius: 4px;
+border-bottom: 1px solid #E2E2E3;
+}
+.data_card div{
+    margin-left: 1rem;
+}
+#name {
+    color: #404553;
+    font-weight: bold;
+    display: flex;
+    align-content: flex-start;
+    padding-left: 1rem;
+}
+#time,#address {
+    color: #2E3B4D;
+    display: flex;
+    align-content: flex-start;
+}

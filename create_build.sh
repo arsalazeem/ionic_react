@@ -1,1 +1,1 @@
-ionic capacitor build android
+ionic capacitor build android -p 4200
