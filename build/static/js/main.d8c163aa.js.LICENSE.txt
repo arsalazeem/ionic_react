@@ -4,6 +4,10 @@ object-assign
 @license MIT
 */
 
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */
+
 /**
  * React Router v6.2.1
  *

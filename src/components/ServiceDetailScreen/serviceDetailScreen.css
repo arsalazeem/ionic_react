@@ -27,8 +27,9 @@ body {
 
 #name {
     color: #404553;
-    font-weight: bolder;
     font-size: 1rem;
+    font-weight: bolder;
+    padding-left: 0px;
 }
 
 #call {
@@ -59,12 +60,14 @@ body {
 #date_row {
     display: flex;
     padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 
 }
 
 #date_and_time {
+    align-self: center;
     padding-left: 1.2rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     color: #404553;
     font-weight: bold;
     vertical-align: text-bottom;

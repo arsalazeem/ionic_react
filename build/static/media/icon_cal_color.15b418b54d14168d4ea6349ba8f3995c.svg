@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="icon_job_schedule" transform="translate(0 -28.861)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="27.5" cy="27.5" r="27.5" transform="translate(0 28.861)" fill="#239aff" opacity="0.102"/>
+    <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(13.5 42.861)">
+      <path id="Path_7108" data-name="Path 7108" d="M6.5,6H20.515a2,2,0,0,1,2,2V22.015a2,2,0,0,1-2,2H6.5a2,2,0,0,1-2-2V8A2,2,0,0,1,6.5,6Z" transform="translate(0 -0.998)" fill="none" stroke="#3ba5fc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_7109" data-name="Path 7109" d="M24,3V7" transform="translate(-6.488)" fill="none" stroke="#3ba5fc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_7110" data-name="Path 7110" d="M12,3V7" transform="translate(-2.495)" fill="none" stroke="#3ba5fc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_7111" data-name="Path 7111" d="M4.5,15H22.516" transform="translate(0 -3.993)" fill="none" stroke="#3ba5fc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

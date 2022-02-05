@@ -24,3 +24,6 @@ border-bottom: 1px solid #E2E2E3;
     display: flex;
     align-content: flex-start;
 }
+a{
+    text-decoration: none;
+}

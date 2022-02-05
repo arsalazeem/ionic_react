@@ -5,6 +5,7 @@ import moment from 'moment';
 import axios from 'axios';
 import { fetchAppointments } from '../service/constants';
 import "./CardViewListing.css";
+import { IonItemSliding } from '@ionic/react';
 const CardViewListing=()=>{
     const [cardData,setCardData]=useState([]);
     useEffect(() => {
@@ -15,6 +16,7 @@ const CardViewListing=()=>{
                 window.location.href="/";
             }
             else{
+        localStorage.setItem("service_detail",JSON.stringify(res.data.data));
         let currentData=res.data.data.appointments;
          setCardData(currentData);
             }
@@ -32,7 +34,7 @@ Scheduled Jobs
   cardData.map(item=>{
 let getTime= moment.unix(item.date); 
 let formatedDate=getTime.format('dddd MMMM Do YYYY, h:mm a');
-    return <CardView name={item.name} time={formatedDate} address={item.address.streetAddress}/>
+    return <CardView name={item.name} time={formatedDate} address={item.address.streetAddress} serviceId={item.id} totalAmount={item.estimation.totalAmount}/>
   })
   }
 </div>
